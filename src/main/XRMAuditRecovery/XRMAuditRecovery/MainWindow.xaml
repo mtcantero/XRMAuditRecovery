@@ -5,13 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:XRMAuditRecovery"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="800.031">
+        Title="MainWindow" Height="439.609" Width="800.031">
     <Grid>
-        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="36,10,0,0" VerticalAlignment="Top" Width="120"/>
-        <DatePicker HorizontalAlignment="Left" Margin="292,17,0,0" VerticalAlignment="Top"/>
-        <DatePicker HorizontalAlignment="Left" Margin="398,15,0,0" VerticalAlignment="Top"/>
-        <ComboBox x:Name="comboBox1" HorizontalAlignment="Left" Margin="604,12,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="87,15,0,0" VerticalAlignment="Top" Width="120"/>
+        <DatePicker HorizontalAlignment="Left" Margin="265,15,0,0" VerticalAlignment="Top"/>
+        <DatePicker HorizontalAlignment="Left" Margin="400,15,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="comboBox1" HorizontalAlignment="Left" Margin="626,15,0,0" VerticalAlignment="Top" Width="120"/>
         <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Margin="36,83,0,0" VerticalAlignment="Top" Height="101" Width="688"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="10,15,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="72"/>
+        <TextBox x:Name="textBox_Copy" HorizontalAlignment="Left" Height="23" Margin="10,15,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="72"/>
+        <TextBox x:Name="textBox_Copy1" HorizontalAlignment="Left" Height="23" Margin="549,15,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="72"/>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="48,235,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="button_Copy" Content="Button" HorizontalAlignment="Left" Margin="170,235,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="button_Copy1" Content="Button" HorizontalAlignment="Left" Margin="321,235,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="button_Copy2" Content="Button" HorizontalAlignment="Left" Margin="476,235,0,0" VerticalAlignment="Top" Width="75"/>
 
     </Grid>
 </Window>
